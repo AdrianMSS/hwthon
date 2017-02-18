@@ -1,0 +1,1893 @@
+.hidden{
+  display: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_section {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  height: 640px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.header_navbar {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 50;
+  width: 100%;
+  height: 80px;
+  margin-top: 0px;
+  padding-top: 10px;
+  background-color: hsla(0, 0%, 7%, .7);
+}
+
+.headernavbar_btn {
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.headernavbar_btn:hover {
+  -webkit-transform: translate(0px, -2px);
+  -ms-transform: translate(0px, -2px);
+  transform: translate(0px, -2px);
+  color: #f15d2a;
+}
+
+.headernavbar_btn.w--current {
+  color: #f15d2a;
+}
+
+.headernavbar_btn.otras {
+  margin-left: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-size: 16px;
+}
+
+.header_video {
+  height: 100%;
+  padding-top: 180px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+}
+
+.header_video_div {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header_logodiv {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+  display: block;
+  width: 800px;
+  height: 232px;
+  margin: 164px auto;
+}
+
+.header_logo {
+  display: block;
+  width: auto;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.texto1 {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.header_playlinkbtn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header_playlinkbtn:hover {
+  -webkit-transform: scale(0.91);
+  -ms-transform: scale(0.91);
+  transform: scale(0.91);
+}
+
+.secciontrabajoenequipo {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.seccioninnovacion_imagen {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-image: url('../images/HTNInnovationWeb.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.body {
+  height: 100%;
+}
+
+.body.galeria {
+  background-color: #b6d2ca;
+}
+
+.titulo1 {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: Exo, sans-serif;
+  color: #f15d2a;
+  line-height: 38px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.titulo1.participar {
+  margin-bottom: 10px;
+}
+
+.titulo1.padding20abajo {
+  margin-bottom: 20px;
+}
+
+.seccionnosotros {
+  position: relative;
+  z-index: 2;
+  height: 500px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #fff;
+}
+
+.texto2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.texto2.textoblanco {
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.spacer1 {
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #b6d2ca;
+}
+
+.spacer1.participar {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.spacer1.black {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.spacer1.patrocinadores {
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.seccion_teamwork {
+  height: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HTNTeamworkWeb.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HTNTeamworkWeb.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+}
+
+.titulo2 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.texto-2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.texto-2.textogris {
+  margin-bottom: 20px;
+  color: #646464;
+  font-size: 18px;
+  text-shadow: none;
+}
+
+.texto-2.textogris.nopadding {
+  margin-bottom: 0px;
+}
+
+.texto-2.textogris.botton {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.texto-2.terminosgris {
+  overflow: scroll;
+  height: 270px;
+  background-color: transparent;
+  color: #646464;
+  font-size: 18px;
+  text-align: left;
+  text-shadow: none;
+}
+
+.secioninnovacion_izq {
+  width: 50%;
+  height: 100%;
+  padding-top: 116px;
+  padding-bottom: 116px;
+  float: right;
+}
+
+.seccioninnovacion {
+  overflow: hidden;
+  height: 400px;
+  background-color: #fff;
+}
+
+.seccioninovacion_divtext {
+  width: 470px;
+  height: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-right: 40px;
+  padding-bottom: 0px;
+  float: right;
+}
+
+.titulo3 {
+  margin-top: 0px;
+  font-family: Exo, sans-serif;
+  font-size: 34px;
+  line-height: 38px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.titulo3.form {
+  text-align: left;
+}
+
+.titulo3.form.blanco {
+  color: #fff;
+}
+
+.seccionteamwork_div {
+  display: block;
+  width: 480px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.seccionstartups {
+  overflow: hidden;
+  height: 400px;
+  background-color: #fff;
+}
+
+.nosotros_div {
+  height: auto;
+}
+
+.seccionstarups_imagen {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/HTNStartupsWeb.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.seccionstarups_divder {
+  width: 50%;
+  height: 100%;
+  padding-top: 131px;
+  float: left;
+}
+
+.seccionstarups_text {
+  width: 470px;
+  height: 138px;
+  padding-left: 40px;
+}
+
+.secciontech {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  background-color: #fff;
+}
+
+.tech_izq {
+  width: 50%;
+  height: 100%;
+  padding-top: 146px;
+  padding-bottom: 146px;
+  float: right;
+}
+
+.tech_imagen {
+  width: 50%;
+  height: 100%;
+  float: right;
+  background-image: url('../images/HTNTechnologyWeb.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.tech_divtext {
+  width: 470px;
+  height: 108px;
+  padding-right: 40px;
+  float: right;
+}
+
+.secciontrends {
+  overflow: hidden;
+  height: 400px;
+  border-bottom: 1px solid #b6d2ca;
+  background-color: #fff;
+}
+
+.trends_imagenizq {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-image: url('../images/HTNInnovationWeb_1.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.trends_divder {
+  width: 50%;
+  height: 100%;
+  padding-top: 131px;
+  padding-bottom: 131px;
+  float: left;
+}
+
+.trends_textder {
+  width: 470px;
+  padding-left: 40px;
+  float: left;
+}
+
+.metodologia {
+  height: 600px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #b6d2ca;
+  background-color: #fff;
+}
+
+.metodologia_tab {
+  width: 188px;
+  height: 110px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: transparent;
+}
+
+.metodologia_tab:hover {
+  color: #f15d2a;
+}
+
+.metodologia_tab.w--current {
+  z-index: 1;
+  width: 188px;
+  height: 110px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  color: #f15d2a;
+}
+
+.metodologia_iconos {
+  display: block;
+  height: 80px;
+  margin: 0px auto 10px;
+}
+
+.titulo5 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  font-family: Exo, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.metodologia_tapdiv {
+  position: relative;
+  width: 160px;
+  height: 100%;
+}
+
+.metodologia_tabscontent {
+  margin-top: 0px;
+}
+
+.texto3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.texto3.verdefooter {
+  float: left;
+  color: #b6d2ca;
+  font-size: 14px;
+}
+
+.texto3.designedby {
+  float: right;
+  color: #b6d2ca;
+}
+
+.texto3.form {
+  margin-top: 30px;
+}
+
+.texto3.form.blanco {
+  color: #fff;
+}
+
+.texto3.form2 {
+  margin-bottom: 20px;
+}
+
+.metodologia_taps {
+  height: auto;
+}
+
+.metodologia_dive {
+  height: 420px;
+}
+
+.botonparticipar {
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: #f15d2a;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.botonparticipar.centrado {
+  display: block;
+  width: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.botonparticipar.centrado.evento {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.botonparticipar.centrado.evento.bloqueado {
+  margin-bottom: 40px;
+  background-color: silver;
+}
+
+.botonparticipar.centrado.home {
+  margin-top: 60px;
+}
+
+.botonparticipar.no-aceptar {
+  display: block;
+  width: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #646464;
+  text-align: center;
+}
+
+.botonparticipar.no-aceptar.w--current {
+  background-color: hsla(0, 0%, 39%, .38);
+}
+
+.botonparticipar.acepto {
+  display: block;
+  width: 140px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.botonparticipar.galeria {
+  display: block;
+  width: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.botonparticipar.derecha {
+  float: right;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  background-color: #303030;
+}
+
+.preefooter {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #b6d2ca;
+}
+
+.preefooter.galeria {
+  background-color: #646464;
+}
+
+.footerlogo {
+  display: block;
+  width: auto;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.spacer2 {
+  height: 1px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  background-color: #222;
+}
+
+.footerimpulso {
+  height: 30px;
+  float: right;
+}
+
+.footerimpulsologo {
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.tappane {
+  margin-top: 10px;
+}
+
+.motodologiaarrow {
+  position: relative;
+  left: 80px;
+  top: 0px;
+  width: 20px;
+  height: 10px;
+  background-image: url('../images/IconoArrow.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.motodologiaarrow.capacitaciones {
+  left: 269px;
+}
+
+.motodologiaarrow.desarrollo {
+  left: 456px;
+}
+
+.motodologiaarrow.presentaciones {
+  left: 644px;
+}
+
+.motodologiaarrow.premiacion {
+  left: 836px;
+}
+
+.contactoform {
+  margin-bottom: 0px;
+}
+
+.contactoformdrop {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contactoformimput {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 80px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, .85);
+}
+
+.navbar.otras {
+  height: 60px;
+  padding-top: 0px;
+}
+
+.secciones {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #b6d2ca;
+  background-color: #fff;
+}
+
+.secciones.quepasadespues {
+  border-bottom: 1px solid #b6d2ca;
+}
+
+.secciones.cuando {
+  position: relative;
+}
+
+.testigo {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.testigofoto {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+  border-radius: 60px;
+  background-image: url('../images/Testigo2.jpg');
+  background-position: 50% 50%;
+  background-size: 100px;
+  background-attachment: scroll;
+}
+
+.testigoscol {
+  padding-left: 10px;
+}
+
+.testigoscol._1 {
+  padding-left: 0px;
+}
+
+.testigoscol._4 {
+  padding-right: 0px;
+}
+
+.testigosslide {
+  height: 440px;
+  background-color: transparent;
+}
+
+.testigoslidemask {
+  height: auto;
+}
+
+.testigoslidenav {
+  opacity: 0.2;
+}
+
+.navbarlogo {
+  width: 216px;
+  height: 40px;
+  margin-top: 10px;
+  float: left;
+  background-image: url('../images/HardwarethonLogoB3.svg');
+  background-position: 0px 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.participar_edicion {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 3;
+  overflow: hidden;
+  height: auto;
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #fff;
+}
+
+.participar_fotopais {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 60px;
+  background-color: #b6d2ca;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .3);
+}
+
+.participar_fotopais.cr {
+  background-image: url('../images/BanderaCR.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.participar_fotopais.colombia {
+  background-image: url('../images/BanderaColombia.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.participar_fotopais.nicaragua {
+  background-image: url('../images/BanderaNicaragua.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.participar_terminos {
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 2;
+  height: auto;
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #b6d2ca;
+}
+
+.terminosdiv {
+  position: relative;
+  overflow: visible;
+  height: 340px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .3);
+}
+
+.terminoscontent {
+  height: auto;
+}
+
+.terminosbotonesdiv {
+  display: block;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.participar_datos {
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.participar_datostap {
+  width: 200px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background-color: #b6d2ca;
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.participar_datostap:hover {
+  color: #f15d2a;
+}
+
+.participar_datostap.w--current {
+  width: 200px;
+  background-color: #f15d2a;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+
+.participar_datostap._1 {
+  margin-right: 20px;
+}
+
+.participartapcontent {
+  padding: 20px 0px 10px;
+  border-top: 1px solid #b6d2ca;
+}
+
+.formsucces {
+  border: 1px solid #f15d2a;
+  background-color: transparent;
+}
+
+.participar_costarica {
+  margin-top: 20px;
+}
+
+.tabsmenu {
+  display: block;
+  width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.participar_colombia {
+  margin-top: 20px;
+}
+
+.faq_sec {
+  margin-top: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #b6d2ca;
+  color: #b6d2ca;
+}
+
+.faq_card {
+  overflow: auto;
+  margin-top: 20px;
+  padding: 20px 20px 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .3);
+  color: #000;
+}
+
+.faq_card._1 {
+  margin-top: 0px;
+}
+
+.galeriaseccion {
+  position: static;
+  height: auto;
+  margin-top: 140px;
+  margin-bottom: 80px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.galeriaseccion._2 {
+  margin-top: 0px;
+}
+
+.galeradivcont {
+  position: relative;
+  z-index: 2;
+  height: 88px;
+}
+
+.galeriaslider {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  display: block;
+  width: auto;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.galeriaslide.a2015 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HTNStartupsWeb.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HTNStartupsWeb.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.galeriaslide.b2015 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HTNTeamworkWeb.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/HTNTeamworkWeb.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.galeriaslide.a2014 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/Slide2015a.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/Slide2015a.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.galeriaslide.b2014 {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/2014_0002_DSC_0341.JPG.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/2014_0002_DSC_0341.JPG.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.galeriaedicion {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 400px;
+  padding-top: 156px;
+  border: 8px solid #fff;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .3);
+}
+
+.testimonioarrow {
+  color: #b6d2ca;
+}
+
+.iconsredes {
+  width: 80px;
+  height: 80px;
+  border: 5px solid #fff;
+  border-radius: 40px;
+  background-color: transparent;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
+}
+
+.iconsredes.facebook {
+  margin-right: 20px;
+  background-image: url('../images/Facebook.svg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.iconsredes.youtube {
+  margin-right: 20px;
+  float: none;
+  background-image: url('../images/YouTube.svg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.iconsredes.twiter {
+  margin-right: 20px;
+  background-image: url('../images/Twiter.svg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.iconsredes.google {
+  background-image: url('../images/Googleplus.svg');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.div_redes {
+  display: block;
+  width: 380px;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.columnasevento {
+  height: 364px;
+}
+
+.columnasevento.home {
+  height: auto;
+}
+
+.premios {
+  display: block;
+  width: 712px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+
+.flecha {
+  position: absolute;
+  top: 20px;
+  right: -20px;
+  bottom: 0px;
+  width: 40px;
+  height: 40px;
+  float: right;
+  background-image: url('../images/Flecha.svg');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+}
+
+.fechashome {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: none;
+}
+
+.botonsubir {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  padding-top: 12px;
+  border-radius: 20px;
+  background-color: #f15d2a;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3);
+}
+
+.flechasubir {
+  display: block;
+  width: 20px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.volver {
+  position: absolute;
+  padding: 0px;
+  background-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  color: #646464;
+}
+
+.patrocinadoressec {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.patrocinadoreslinks {
+  width: 100%;
+}
+
+.patrocinadoreslinks.imagine {
+  display: block;
+  width: 20%;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+html.w-mod-js *[data-ix="cardfotoinnovacion"] {
+  -webkit-transform: translate(100%, 0px);
+  -ms-transform: translate(100%, 0px);
+  transform: translate(100%, 0px);
+}
+
+html.w-mod-js *[data-ix="cardtexizq"] {
+  -webkit-transform: translate(50%, 0px);
+  -ms-transform: translate(50%, 0px);
+  transform: translate(50%, 0px);
+}
+
+html.w-mod-js *[data-ix="cardfotoizq"] {
+  -webkit-transform: translate(-100%, 0px);
+  -ms-transform: translate(-100%, 0px);
+  transform: translate(-100%, 0px);
+}
+
+html.w-mod-js *[data-ix="cardtexder"] {
+  -webkit-transform: translate(-50%, 0px);
+  -ms-transform: translate(-50%, 0px);
+  transform: translate(-50%, 0px);
+}
+
+html.w-mod-js *[data-ix="trabajoenequipo"] {
+  opacity: 0.2;
+}
+
+html.w-mod-js *[data-ix="navbarhiden"] {
+  opacity: 0;
+}
+
+html.w-mod-js *[data-ix="terminosocultos"] {
+  display: none;
+}
+
+html.w-mod-js *[data-ix="metodologiahiden"] {
+  -webkit-transform: translate(0px, 100%);
+  -ms-transform: translate(0px, 100%);
+  transform: translate(0px, 100%);
+}
+
+@media (max-width: 991px) {
+  .header_section {
+    position: relative;
+    overflow: visible;
+    height: 540px;
+    padding-left: 0px;
+  }
+  .header_navbar {
+    margin-top: 0px;
+  }
+  .headernavbar_btn:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .headernavbar_btn.w--current {
+    color: #fff;
+  }
+  .header_video {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+  }
+  .header_video_div {
+    overflow: hidden;
+  }
+  .header_logodiv {
+    width: auto;
+    height: 232px;
+    margin-top: 114px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  .texto1 {
+    letter-spacing: 1px;
+  }
+  .iconoblanco {
+    color: #fff;
+  }
+  .headernavbar_menu {
+    background-color: #b6d2ca;
+  }
+  .seccionnosotros {
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 128px;
+  }
+  .spacer1.patrocinadores {
+    margin-bottom: 30px;
+  }
+  .secioninnovacion_izq {
+    padding-top: 86px;
+    padding-bottom: 86px;
+  }
+  .seccioninovacion_divtext {
+    width: 364px;
+    height: auto;
+  }
+  .nosotros_div {
+    height: auto;
+  }
+  .seccionstarups_text {
+    width: 364px;
+    height: auto;
+  }
+  .tech_divtext {
+    width: 364px;
+  }
+  .trends_divder {
+    padding-top: 116px;
+    padding-bottom: 116px;
+  }
+  .trends_textder {
+    width: 364px;
+    height: auto;
+  }
+  .metodologia {
+    background-color: #fff;
+  }
+  .metodologia_tab {
+    width: 145.6px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .metodologia_tab.w--current {
+    width: 145.6px;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .metodologia_tapdiv {
+    width: 145.6px;
+  }
+  .headervideoimg {
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/HardwarethonHeaderImg.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/HardwarethonHeaderImg.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .menubutton.w--open {
+    background-color: transparent;
+  }
+  .motodologiaarrow {
+    left: 60px;
+  }
+  .motodologiaarrow.capacitaciones {
+    left: 206px;
+  }
+  .motodologiaarrow.desarrollo {
+    left: 352px;
+  }
+  .motodologiaarrow.presentaciones {
+    left: 498px;
+  }
+  .motodologiaarrow.premiacion {
+    left: 644px;
+  }
+  .secciones {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .testigosslide {
+    height: 480px;
+  }
+  .navbarlogo.w--current {
+    background-image: url('../images/HardwarethonLogoNav.svg');
+    background-size: contain;
+  }
+  .participar_edicion {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: auto;
+    height: 669px;
+  }
+  .participar_terminos {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: auto;
+  }
+  .participartapcontent {
+    padding: 20px 0px;
+  }
+  .galeriaslider {
+    width: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: transparent;
+  }
+  .flecha {
+    right: -15px;
+    width: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header_section {
+    height: 540px;
+  }
+  .header_navbar {
+    padding-left: 20px;
+  }
+  .header_logodiv {
+    height: 264px;
+    margin-top: 98px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .titulo1 {
+    line-height: 48px;
+  }
+  .seccionnosotros {
+    height: auto;
+    padding: 80px 20px;
+  }
+  .spacer1.patrocinadores {
+    margin-bottom: 20px;
+  }
+  .seccion_teamwork {
+    height: auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
+  .texto-2.textogris.botton {
+    margin-bottom: 40px;
+  }
+  .secioninnovacion_izq {
+    padding-top: 71px;
+    padding-bottom: 71px;
+  }
+  .seccioninovacion_divtext {
+    width: 264px;
+  }
+  .titulo3.form {
+    margin-bottom: 40px;
+  }
+  .seccionteamwork_div {
+    height: auto;
+  }
+  .nosotros_div {
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .seccionstarups_divder {
+    padding-top: 71px;
+  }
+  .seccionstarups_text {
+    width: 264px;
+  }
+  .tech_izq {
+    padding-top: 71px;
+  }
+  .tech_divtext {
+    width: 264px;
+  }
+  .trends_divder {
+    padding-top: 71px;
+  }
+  .trends_textder {
+    width: 264px;
+  }
+  .metodologia {
+    height: auto;
+    padding: 40px 0px 0px;
+  }
+  .metodologia_tab {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .metodologia_tab:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .metodologia_tab.w--current {
+    display: block;
+    width: 100%;
+    height: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+  .metodologia_iconos {
+    height: 60px;
+    float: none;
+    clear: none;
+  }
+  .titulo5 {
+    position: static;
+    margin-top: 20px;
+    float: none;
+    color: #333;
+  }
+  .metodologia_tapdiv {
+    width: auto;
+    height: 100%;
+  }
+  .texto3 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .texto3.form {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    line-height: 16px;
+  }
+  .metodologia_taps {
+    padding-top: 10px;
+    border-top: 1px solid #b6d2ca;
+  }
+  .metodologia_dive {
+    position: relative;
+    height: auto;
+  }
+  .botonparticipar.centrado {
+    margin-bottom: 40px;
+  }
+  .botonparticipar.centrado.evento.bloqueado {
+    margin-bottom: 80px;
+  }
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .preefooter {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .headervideoimg {
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/HardwarethonHeaderImg.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('../images/HardwarethonHeaderImg.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+  .menubutton:active {
+    background-color: transparent;
+  }
+  .menubutton.w--open {
+    background-color: transparent;
+  }
+  .contactoformdrop {
+    margin-bottom: 20px;
+  }
+  .contactoformimput {
+    margin-bottom: 20px;
+  }
+  .contactoformcol {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+  .secciones {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .secciones.cuando {
+    padding-bottom: 40px;
+  }
+  .testigo {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .testigoscol {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+  }
+  .testigoscol._1 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+  .testigosslide {
+    height: 520px;
+    padding-bottom: 60px;
+    background-color: transparent;
+  }
+  .testigoslidemask {
+    height: auto;
+  }
+  .testigoslidenav {
+    height: 14px;
+    padding-top: 0px;
+    opacity: 0.2;
+    color: #b6d2ca;
+  }
+  .participar_edicion {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
+  .participar_terminos {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .participar_datos {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .participar_datostap {
+    width: 100%;
+  }
+  .participar_datostap.w--current {
+    width: 100%;
+  }
+  .tabsmenu {
+    width: auto;
+  }
+  .formcol {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .faq_sec {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .galeriaseccion {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .detallemetodologia {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1000;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    padding: 40px 20px 0px;
+    background-color: #b6d2ca;
+    box-shadow: 0 -1px 3px 0 rgba(0, 0, 0, .3);
+  }
+  .closebtn {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    bottom: 0px;
+    z-index: 3;
+    height: 30px;
+    float: right;
+  }
+  .metodologia_mask {
+    position: relative;
+    overflow: scroll;
+    height: 100%;
+  }
+  .columnasevento {
+    height: 370px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .columnasevento.col2 {
+    margin-bottom: 0px;
+    border-bottom-style: none;
+  }
+  .columnasevento.home {
+    padding-bottom: 10px;
+  }
+  .premios {
+    margin-bottom: 10px;
+  }
+  .fechashome {
+    width: auto;
+  }
+}
+
+@media (max-width: 479px) {
+  .header_section {
+    height: 500px;
+  }
+  .header_video_div {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    width: auto;
+  }
+  .header_logodiv {
+    height: 212px;
+    margin-top: 104px;
+  }
+  .header_logo {
+    width: 100%;
+    height: auto;
+  }
+  .texto1 {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  .texto2 {
+    font-size: 18px;
+  }
+  .spacer1.participar {
+    margin-top: 40px;
+  }
+  .spacer1.patrocinadores {
+    margin-bottom: 20px;
+  }
+  .seccion_teamwork {
+    padding: 120px 20px;
+  }
+  .texto-2.textogris {
+    margin-bottom: 0px;
+  }
+  .texto-2.textogris.izq {
+    text-align: left;
+  }
+  .seccioninnovacion {
+    height: auto;
+  }
+  .titulo3.form {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .seccionteamwork_div {
+    width: 100%;
+    height: auto;
+  }
+  .seccionstartups {
+    height: auto;
+  }
+  .nosotros_div {
+    height: auto;
+  }
+  .secciontech {
+    height: auto;
+  }
+  .secciontrends {
+    height: auto;
+  }
+  .metodologia {
+    height: auto;
+    padding-bottom: 40px;
+    border-bottom-style: none;
+  }
+  .metodologia_tab {
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .metodologia_tab.w--current {
+    height: 80px;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .metodologia_iconos {
+    margin-bottom: 0px;
+    float: left;
+  }
+  .titulo5 {
+    margin-left: 20px;
+    float: left;
+  }
+  .metodologia_tapdiv {
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .texto3.verdefooter {
+    float: none;
+    text-align: center;
+  }
+  .texto3.designedby {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    float: none;
+    line-height: 16px;
+    text-align: center;
+  }
+  .metodologia_taps {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .metodologia_dive {
+    height: auto;
+  }
+  .botonparticipar.centrado {
+    margin-bottom: 0px;
+  }
+  .botonparticipar.centrado.evento {
+    bottom: 40px;
+    margin-bottom: 50px;
+  }
+  .botonparticipar.centrado.evento.bloqueado {
+    margin-bottom: 40px;
+  }
+  .footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .preefooter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footerimpulso {
+    display: block;
+    width: 96px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .footerimpulsologo {
+    display: block;
+    width: 96px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .secciondetallescel {
+    height: 100%;
+    padding: 40px 20px;
+  }
+  .secciondetallescellimg {
+    height: 300px;
+  }
+  .secciondetallescellimg.innovacion {
+    background-image: url('../images/HTNInnovationWeb_1.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .secciondetallescellimg.starups {
+    background-image: url('../images/HTNStartupsWeb.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .secciondetallescellimg.tech {
+    background-image: url('../images/HTNTechnologyWeb.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .secciondetallescellimg.actualidad {
+    background-image: url('../images/HTNTrendsWeb.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .secciones {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top-style: none;
+  }
+  .secciones.quepasadespues {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    border-top: 1px none #000;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .secciones.cuando {
+    padding-top: 40px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .testigo {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .testigosslide {
+    height: 680px;
+  }
+  .navbarlogo {
+    background-image: url('../images/HardwarethonLogoB3.svg');
+    background-size: contain;
+  }
+  .navbarlogo.w--current {
+    background-image: url('../images/HardwarethonLogoB3.svg');
+    background-size: contain;
+  }
+  .participar_edicion {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .participar_terminos {
+    position: static;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    height: auto;
+    margin-top: 60px;
+    padding-top: 40px;
+  }
+  .terminosdiv {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .terminosbotonesdiv {
+    width: auto;
+  }
+  .participartapcontent {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .formcol {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .detallemetodologia {
+    overflow: hidden;
+    height: 60%;
+  }
+  .closebtn {
+    z-index: 4;
+  }
+  .iconsredes.facebook {
+    margin-bottom: 20px;
+  }
+  .iconsredes.youtube {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .div_redes {
+    width: 180px;
+  }
+  .columnasevento {
+    height: 420px;
+    margin-bottom: 40px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #b6d2ca;
+  }
+  .columnasevento.col2 {
+    margin-bottom: 0px;
+  }
+  .columnasevento.home {
+    padding-bottom: 20px;
+  }
+  .columnasevento.home.col2 {
+    padding-bottom: 30px;
+  }
+  .volver {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .patrocinadoreslinks.imagine {
+    width: 40%;
+  }
+}
+
